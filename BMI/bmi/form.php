@@ -15,7 +15,6 @@ if (!isset($_SESSION['userID'])) {
     <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
-<?php include('../partials/header.php'); ?>
 <div>
     <h2>BMI Calculator</h2>
     <form action="calculate.php" method="POST">
@@ -31,6 +30,5 @@ if (!isset($_SESSION['userID'])) {
         <button type="submit">Calculate</button>
     </form>
 </div>
-<?php include('../partials/footer.php'); ?>
 </body>
 </html>
